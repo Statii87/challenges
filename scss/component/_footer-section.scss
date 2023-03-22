@@ -1,0 +1,25 @@
+.footer-section{
+
+    &__svg{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        fill: currentColor;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    &__text{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px){
+    .footer-section__list{
+        padding-top: 85px;
+    }
+}
